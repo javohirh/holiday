@@ -234,6 +234,13 @@ header .mobile__phone {
   display: flex;
   flex-wrap: wrap;
   grid-area: 10px;
+  justify-content: space-around;
+}
+.deliver__cards .delivery-hr {
+  width: 100%;
+  height: 1px;
+  background-color: #fbe0e0;
+  margin-bottom: 20px;
 }
 
 .delivery__card {
@@ -241,11 +248,12 @@ header .mobile__phone {
   max-width: 280px;
   border-right: 1px solid #fbe0e0;
   padding-right: 10px;
+  margin-bottom: 30px;
 }
 .delivery__card .delivery__like {
   position: absolute;
   right: 10px;
-  top: 24px;
+  top: 23px;
 }
 .delivery__card .d-img {
   display: flex;
@@ -254,7 +262,7 @@ header .mobile__phone {
   padding-left: 20px;
   position: absolute;
   top: 20px;
-  left: 20px;
+  left: 2px;
 }
 .delivery__card .d-img img {
   width: 108px;
@@ -324,6 +332,14 @@ header .mobile__phone {
   margin-right: 5;
   background-color: #f58020;
 }
+.delivery__card .out-stock {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5;
+  background-color: #e81212;
+}
 
 @media only screen and (min-width: 907px) and (max-width: 1134px) {
   .container {
@@ -361,6 +377,7 @@ header .mobile__phone {
   .hero h1 {
     font-size: 36px;
     line-height: 42px;
+    margin-top: 40px;
   }
   .hero p {
     font-size: 16px;
@@ -369,7 +386,7 @@ header .mobile__phone {
   .hero .hero__content {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
   .hero .hero__content .hero__main {
     text-align: center;
@@ -391,5 +408,16 @@ header .mobile__phone {
   .delivery > p {
     font-size: 14px;
     line-height: 21px;
+  }
+  .mobile__card {
+    display: none;
+  }
+  .delivery__card .camera {
+    padding: 12px 30px;
+    background-color: #fccd05;
+  }
+  .delivery__card .camera span {
+    padding-left: 5px;
+    font-size: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
