@@ -369,6 +369,7 @@ header .mobile__phone {
   .hero .hero__content {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .hero .hero__content .hero__main {
     text-align: center;
