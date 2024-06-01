@@ -491,6 +491,7 @@ header .mobile__phone {
   }
   .deliver__mobile-click:hover {
     background-color: #e81212;
+    color: #fff;
   }
   .salyut {
     margin-top: 15px 0;
