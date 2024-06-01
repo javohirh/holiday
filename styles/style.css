@@ -468,7 +468,7 @@ header .mobile__phone {
   }
   .deliver__mobile-slider {
     position: absolute;
-    bottom: 50%;
+    top: 40%;
     left: 10px;
   }
   .deliver__mobile-slider img {
