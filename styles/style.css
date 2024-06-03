@@ -788,14 +788,15 @@ header .mobile__phone {
   .blog__main {
     grid-template-columns: 1fr;
   }
-  .blog__main .blog-left {
+  .blog__main .blog__left {
     background-repeat: no-repeat;
   }
-  .blog-right {
+  .blog__right {
     border-left: none;
   }
-  .blog-right p {
+  .blog__right p {
     font-size: 16px;
     line-height: 24px;
+    font-weight: 300;
   }
 }/*# sourceMappingURL=style.css.map */

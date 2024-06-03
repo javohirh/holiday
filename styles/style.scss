@@ -549,6 +549,7 @@ header {
     padding-left: 30px;
   }
 }
+
 @media only screen and (min-width: 907px) and (max-width: 1134px) {
   .container {
     padding: 0 20px;
@@ -792,16 +793,17 @@ header {
   }
   .blog__main {
     grid-template-columns: 1fr;
-    .blog-left {
+    .blog__left {
       background-repeat: no-repeat;
     }
   }
 
-  .blog-right {
+  .blog__right {
     border-left: none;
     p {
       font-size: 16px;
       line-height: 24px;
+      font-weight: 300;
     }
   }
 }
