@@ -1,0 +1,41 @@
+@media only screen and (min-width: 907px) and (max-width: 1134px) {
+  .container {
+    padding: 0 20px;
+  }
+  header {
+    .tel {
+      display: none;
+    }
+    .mobile__phone {
+      display: block;
+    }
+    .header__btn {
+      font-size: 10px;
+    }
+  }
+  .nav {
+    ul {
+      gap: 20px;
+    }
+  }
+  .review__main {
+    grid-template-columns: 1fr;
+    .review__left {
+      flex-direction: row;
+    }
+    .review__content {
+      flex-direction: column;
+    }
+  }
+  .discount__images {
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+  .CONTACKT {
+    flex-direction: column;
+    gap: 30px;
+  }
+  iframe {
+    width: 95vw;
+  }
+}

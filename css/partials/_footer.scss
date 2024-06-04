@@ -1,0 +1,82 @@
+.color-end {
+  background-color: #443e3e;
+  height: 590px;
+  padding: 30px;
+}
+
+.sec__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top__contact {
+  width: 270px;
+}
+
+.logotip_full {
+  margin-bottom: 30px;
+}
+
+.numberphone {
+  margin-bottom: 20px;
+}
+
+.sms {
+  margin-bottom: 20px;
+}
+
+.top__btn {
+  background: #e81212;
+  border: 0;
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.22px;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+.top___location {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+  width: 200px;
+  color: #cccccc;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.top__katalog {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2;
+  max-width: 270px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.instagram {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 17px;
+}
+
+.end-year {
+  border-top: 1px solid rgba(153, 153, 153, 0.3137254902);
+  border-bottom: 1px solid rgba(153, 153, 153, 0.3137254902);
+  text-align: center;
+  padding: 30px 0;
+  color: #cccccc;
+  margin-top: 50px;
+}
+
+.end-text {
+  margin-top: 30px;
+  text-align: center;
+  color: #cccccc;
+}

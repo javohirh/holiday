@@ -1,0 +1,63 @@
+.call {
+  margin-top: 100px;
+  margin-bottom: 95px;
+  // background-image: url(../../images/call-us-bg.png);
+  height: 375px;
+  h4 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    max-width: 500px;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    margin: 0 auto 5px;
+  }
+  hr {
+    border: none;
+    width: 200px;
+    height: 3px;
+    background-color: #fccd05;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  p {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin: 20px auto 30px;
+    max-width: 500px;
+  }
+}
+.call__form {
+  label {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ccc;
+    text-transform: uppercase;
+  }
+  input {
+    padding: 10px 15px;
+    color: #999;
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 260px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+  }
+  form {
+    margin-top: 56px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .call-us-btn {
+    align-self: flex-end;
+  }
+}

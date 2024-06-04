@@ -1,0 +1,39 @@
+.CONTACKT-left {
+  width: 300px;
+}
+.line3 {
+  width: 300px;
+  height: 1px;
+  border: 1px;
+  background-color: #fbe0e0;
+  margin: 30px 0;
+}
+.CONTACKT {
+  display: flex;
+
+  gap: 100px;
+  align-items: start;
+  margin-top: 40px;
+}
+.text-pan {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.numberphone2 {
+  margin: 30px 0;
+}
+.google {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.google-right {
+  max-width: 890px;
+}
+.right-left {
+  width: 300px;
+}
+iframe {
+  width: 800px;
+  height: 400px;
+}

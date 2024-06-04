@@ -1,0 +1,26 @@
+.adds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.adds__img {
+  position: relative;
+  .adds__text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: #fff;
+    h4 {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 25px;
+    }
+    p {
+      margin-top: 10px;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+}
